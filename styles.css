@@ -8,15 +8,20 @@
 }
 
 body {
-  cursor: default;
-  font-family: "Quicksand", sans-serif;
   position: relative;
+  height: 42rem;
+  font-family: "Quicksand", sans-serif;
+  cursor: default;
 }
 
-/*************************************************** sections */
+/*************************************************** halves */
+.title h1 {
+  z-index: 1000;
+  color: #a81c07;
+}
+
 .top-half,
 .bottom-half {
-  background-color: #ffebcd;
   height: 50%;
   width: 100%;
   position: absolute;
@@ -24,8 +29,10 @@ body {
 
 .top-half {
   background-color: #ffebcd;
+  top: 0;
 }
 
 .bottom-half {
   background-color: #ba8759;
+  bottom: 0;
 }
