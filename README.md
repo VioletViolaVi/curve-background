@@ -7,3 +7,7 @@ This is a static website which displays a background with a curved pattern. The 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Google Fonts](https://fonts.google.com/)
+
+# Credits
+
+- [Making curves with CSS](https://www.youtube.com/watch?v=qUusNDtAOeA)
