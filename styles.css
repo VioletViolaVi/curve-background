@@ -8,17 +8,21 @@
 }
 
 body {
+  font-family: "Quicksand", sans-serif;
+  cursor: default;
   position: relative;
   height: 41rem;
   background-color: #ba8759;
-  font-family: "Quicksand", sans-serif;
-  cursor: default;
+  text-align: center;
 }
 
 /*************************************************** title */
 .title h1 {
-  z-index: 1000;
+  z-index: 1;
   color: #a81c07;
+  position: absolute;
+  top: 25%;
+  font-size: 3rem;
 }
 
 /*************************************************** curved */
