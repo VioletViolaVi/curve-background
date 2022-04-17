@@ -9,7 +9,8 @@
 
 body {
   position: relative;
-  height: 42rem;
+  height: 41rem;
+  background-color: #ba8759;
   font-family: "Quicksand", sans-serif;
   cursor: default;
 }
@@ -20,19 +21,10 @@ body {
   color: #a81c07;
 }
 
-.top-half,
-.bottom-half {
+.top-half {
   height: 50%;
   width: 100%;
   position: absolute;
-}
-
-.top-half {
   background-color: #ffebcd;
   top: 0;
-}
-
-.bottom-half {
-  background-color: #ba8759;
-  bottom: 0;
 }
