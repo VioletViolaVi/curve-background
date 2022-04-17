@@ -15,16 +15,21 @@ body {
   cursor: default;
 }
 
-/*************************************************** halves */
+/*************************************************** title */
 .title h1 {
   z-index: 1000;
   color: #a81c07;
 }
 
-.top-half {
-  height: 50%;
-  width: 100%;
+/*************************************************** curved */
+.curved {
   position: absolute;
-  background-color: #ffebcd;
+  height: 60%;
+  width: 100%;
   top: 0;
+  background-color: #ffebcd;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+  transform: scaleX(1.5);
+  background: linear-gradient(180deg, #f4a460, #ffefd5);
 }
