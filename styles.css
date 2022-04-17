@@ -7,4 +7,21 @@
 
 body {
   cursor: default;
+  position: relative;
+}
+
+.top-half,
+.bottom-half {
+  background-color: #ffebcd;
+  height: 50%;
+  width: 100%;
+  position: absolute;
+}
+
+.top-half {
+  background-color: #ffebcd;
+}
+
+.bottom-half {
+  background-color: #ba8759;
 }
