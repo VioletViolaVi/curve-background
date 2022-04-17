@@ -17,6 +17,11 @@ body {
 }
 
 /*************************************************** title */
+.title {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .title h1 {
   z-index: 1;
   color: #a81c07;
@@ -25,15 +30,19 @@ body {
   font-size: 3rem;
 }
 
+@media (min-width: 800px) {
+  .title h1 {
+    font-size: 4rem;
+  }
+}
+
 /*************************************************** curved */
 .curved {
   position: absolute;
   height: 60%;
   width: 100%;
   top: 0;
-  background-color: #ffebcd;
-  border-bottom-left-radius: 50% 20%;
-  border-bottom-right-radius: 50% 20%;
-  transform: scaleX(1.5);
+  border-bottom-left-radius: 80% 20%;
+  border-bottom-right-radius: 80% 20%;
   background: linear-gradient(180deg, #f4a460, #ffefd5);
 }
