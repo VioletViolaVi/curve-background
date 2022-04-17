@@ -1,4 +1,6 @@
 /*************************************************** custom defaults */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,9 +9,11 @@
 
 body {
   cursor: default;
+  font-family: "Quicksand", sans-serif;
   position: relative;
 }
 
+/*************************************************** sections */
 .top-half,
 .bottom-half {
   background-color: #ffebcd;
